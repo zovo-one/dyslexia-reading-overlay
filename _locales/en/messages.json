@@ -1,0 +1,73 @@
+{
+  "extName": {
+    "message": "Dyslexia Reading Overlay — Friendly Font, Color Tint and Reading Ruler",
+    "description": "Extension name — ≤75 chars"
+  },
+  "extDesc": {
+    "message": "Dyslexia-friendly fonts, Irlen color tint, letter/word/line spacing, and a tracking reading ruler. Free, no ads, 100% local.",
+    "description": "Extension description — ≤132 chars"
+  },
+  "masterSwitch": {
+    "message": "Toggle reading overlay"
+  },
+  "fontPicker": {
+    "message": "Reading font"
+  },
+  "fontDefault": {
+    "message": "Default"
+  },
+  "fontOpenDyslexic": {
+    "message": "OpenDyslexic"
+  },
+  "fontLexend": {
+    "message": "Lexend"
+  },
+  "tintColor": {
+    "message": "Tint color"
+  },
+  "tintOpacity": {
+    "message": "Tint opacity"
+  },
+  "letterSpacing": {
+    "message": "Letter spacing"
+  },
+  "wordSpacing": {
+    "message": "Word spacing"
+  },
+  "lineHeight": {
+    "message": "Line height"
+  },
+  "maxWidth": {
+    "message": "Line length"
+  },
+  "rulerToggle": {
+    "message": "Reading ruler"
+  },
+  "rulerHeight": {
+    "message": "Ruler height"
+  },
+  "customTint": {
+    "message": "Custom tint"
+  },
+  "autoApply": {
+    "message": "Auto-apply on every page"
+  },
+  "perSiteProfile": {
+    "message": "Per-site profile"
+  },
+  "ttsRead": {
+    "message": "Read aloud"
+  },
+  "pdfMode": {
+    "message": "PDF reading mode"
+  },
+  "upgradePro": {
+    "message": "Upgrade to Pro"
+  },
+  "livePreview": {
+    "message": "Your reading setup"
+  },
+  "previewSample": {
+    "message": "The quick brown fox jumps over the lazy dog. Dyslexia makes reading hard; this overlay makes it easier."
+  }
+}

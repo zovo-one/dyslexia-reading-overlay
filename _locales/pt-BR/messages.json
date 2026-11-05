@@ -1,0 +1,73 @@
+{
+  "extName": {
+    "message": "Camada de leitura para dislexia — fonte, filtro de cor e régua",
+    "description": "Extension name — ≤75 chars"
+  },
+  "extDesc": {
+    "message": "Fontes para dislexia, tonalidade Irlen, espaçamento de letras/palavras/linhas e régua de leitura. Grátis, sem anúncios, 100% local.",
+    "description": "Extension description — ≤132 chars"
+  },
+  "masterSwitch": {
+    "message": "Ativar/desativar sobreposição de leitura"
+  },
+  "fontPicker": {
+    "message": "Fonte de leitura"
+  },
+  "fontDefault": {
+    "message": "Padrão"
+  },
+  "fontOpenDyslexic": {
+    "message": "OpenDyslexic"
+  },
+  "fontLexend": {
+    "message": "Lexend"
+  },
+  "tintColor": {
+    "message": "Cor do tom"
+  },
+  "tintOpacity": {
+    "message": "Opacidade do tom"
+  },
+  "letterSpacing": {
+    "message": "Espaçamento de letras"
+  },
+  "wordSpacing": {
+    "message": "Espaçamento de palavras"
+  },
+  "lineHeight": {
+    "message": "Altura da linha"
+  },
+  "maxWidth": {
+    "message": "Comprimento da linha"
+  },
+  "rulerToggle": {
+    "message": "Régua de leitura"
+  },
+  "rulerHeight": {
+    "message": "Altura da régua"
+  },
+  "customTint": {
+    "message": "Tom personalizado"
+  },
+  "autoApply": {
+    "message": "Aplicar automaticamente em cada página"
+  },
+  "perSiteProfile": {
+    "message": "Perfil por site"
+  },
+  "ttsRead": {
+    "message": "Ler em voz alta"
+  },
+  "pdfMode": {
+    "message": "Modo de leitura PDF"
+  },
+  "upgradePro": {
+    "message": "Atualizar para Pro"
+  },
+  "livePreview": {
+    "message": "Sua configuração de leitura"
+  },
+  "previewSample": {
+    "message": "A rápida raposa marrom pula sobre o cão preguiçoso. A dislexia dificulta a leitura; esta sobreposição a facilita."
+  }
+}

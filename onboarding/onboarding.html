@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Dyslexia Reading Overlay</title>
+  <link rel="stylesheet" href="onboarding.css">
+</head>
+<body class="zovo-onboarding-body">
+  <main class="zovo-onboarding" role="main" aria-label="Onboarding">
+    <!-- Progress -->
+    <div class="zovo-progress" aria-hidden="true">
+      <div class="zovo-progress-bar" id="zovo-progress-bar" style="width: 33%"></div>
+    </div>
+    <div class="zovo-progress-dots" role="tablist" aria-label="Onboarding steps">
+      <span class="zovo-dot zovo-dot--active zovo-dot--current" data-step="1" role="tab" aria-selected="true">1</span>
+      <span class="zovo-dot" data-step="2" role="tab" aria-selected="false">2</span>
+      <span class="zovo-dot" data-step="3" role="tab" aria-selected="false">3</span>
+    </div>
+
+    <!-- Step 1: Welcome -->
+    <section class="zovo-step zovo-step--active" id="zovo-step-1" role="tabpanel" aria-label="Welcome">
+      <div class="zovo-step-icon">
+        <img src="../icons/icon128.png" alt="Dyslexia Reading Overlay" width="80" height="80" onerror="this.style.display='none'">
+      </div>
+      <h1 class="zovo-step-title" data-i18n="onboarding_welcome_title">Welcome to Dyslexia Reading Overlay</h1>
+      <p class="zovo-step-text" data-i18n="onboarding_welcome_body">Dyslexia-friendly fonts, Irlen color tint, letter/word/line spacing, and a tracking reading ruler — all in one calm popup.</p>
+      <button class="zovo-btn zovo-btn--primary zovo-btn--lg" id="zovo-btn-start" type="button" data-i18n="onboarding_get_started">Get Started</button>
+      <button class="zovo-btn zovo-btn--ghost" id="zovo-btn-skip" type="button" data-i18n="onboarding_skip">Skip setup</button>
+    </section>
+
+    <!-- Step 2: Quick Setup -->
+    <section class="zovo-step" id="zovo-step-2" role="tabpanel" aria-label="Quick setup" hidden>
+      <h2 class="zovo-step-title" data-i18n="onboarding_setup_title">Quick setup</h2>
+      <p class="zovo-step-text" data-i18n="onboarding_setup_body">Tune the essentials. You can change these anytime in Settings.</p>
+      <div class="zovo-config-options">
+        <label class="zovo-config-option">
+          <input type="checkbox" class="zovo-checkbox" data-config="notifications" checked>
+          <span class="zovo-config-info">
+            <strong data-i18n="onboarding_opt_notifications_title">Notifications</strong>
+            <span data-i18n="onboarding_opt_notifications_body">Get alerts for important events</span>
+          </span>
+        </label>
+        <label class="zovo-config-option">
+          <input type="checkbox" class="zovo-checkbox" data-config="analytics" checked>
+          <span class="zovo-config-info">
+            <strong data-i18n="onboarding_opt_analytics_title">Usage insights</strong>
+            <span data-i18n="onboarding_opt_analytics_body">Local-only stats. Never leaves your device.</span>
+          </span>
+        </label>
+      </div>
+
+      <!--
+        Optional permission priming. Kept hidden by default; reveal by removing
+        `hidden` and setting data-perm-origins to the host(s) you actually need.
+        Origins listed here must appear in manifest optional_host_permissions.
+      -->
+      <div class="zovo-perm-prime" id="zovo-perm-prime" data-perm-origins="" hidden>
+        <div class="zovo-perm-copy">
+          <strong data-i18n="onboarding_perm_title">Enable on your sites</strong>
+          <span class="zovo-perm-body" data-i18n="onboarding_perm_body">Grant access so the extension can work where you need it. You can revoke this anytime.</span>
+        </div>
+        <button class="zovo-btn zovo-btn--secondary zovo-btn--sm" id="zovo-btn-grant" type="button" data-i18n="onboarding_perm_grant">Enable</button>
+        <span class="zovo-perm-status" id="zovo-perm-status" role="status" aria-live="polite"></span>
+      </div>
+
+      <button class="zovo-btn zovo-btn--primary zovo-btn--lg" id="zovo-btn-next" type="button" data-i18n="onboarding_continue">Continue</button>
+    </section>
+
+    <!-- Step 3: First Action -->
+    <section class="zovo-step" id="zovo-step-3" role="tabpanel" aria-label="First action" hidden>
+      <div class="zovo-step-icon zovo-step-icon--success">
+        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" aria-hidden="true">
+          <circle cx="40" cy="40" r="40" fill="var(--zovo-primary)"></circle>
+          <path d="M24 40L34 50L56 28" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+      </div>
+      <h2 class="zovo-step-title" data-i18n="onboarding_action_title">Open any page and toggle the overlay</h2>
+      <p class="zovo-step-text" data-i18n="onboarding_action_body">Visit any article or wiki page, click the toolbar icon, and flip the master switch. Pick the OpenDyslexic font and a Blue tint to feel the difference instantly.</p>
+      <div class="zovo-pro-teaser">
+        <p class="zovo-pro-teaser-text" data-i18n="onboarding_pro_teaser"><strong>Want more?</strong> Unlock the reading ruler, custom tint, auto-apply, and TTS with Zovo Pro.</p>
+        <button class="zovo-btn zovo-btn--secondary zovo-btn--sm" id="zovo-btn-pro" type="button" data-i18n="onboarding_learn_pro">Learn about Pro</button>
+      </div>
+      <button class="zovo-btn zovo-btn--primary zovo-btn--lg" id="zovo-btn-finish" type="button" data-i18n="onboarding_finish">Start using Dyslexia Reading Overlay</button>
+    </section>
+
+    <footer class="zovo-onboarding-footer">
+      <span>zovo.one</span>
+    </footer>
+  </main>
+  <script src="onboarding.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+/* ============================================================================
+ * options.css — Dyslexia Reading Overlay options page
+ * ========================================================================== */
+
+.zovo-dx-options {
+  margin: 0;
+  background: var(--zovo-surface);
+  color: var(--zovo-text);
+  font-family: var(--zovo-font);
+  font-size: var(--zovo-fs-body);
+  line-height: var(--zovo-lh);
+  min-height: 100vh;
+}
+
+.zovo-dx-options__main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: var(--zovo-space-7) var(--zovo-space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--zovo-space-5);
+}
+
+.zovo-dx-options__header h1 {
+  margin: 0;
+  font-size: var(--zovo-fs-title);
+  font-weight: var(--zovo-fw-heading);
+  letter-spacing: -0.02em;
+}
+.zovo-dx-options__header p {
+  margin: 4px 0 0;
+  font-size: var(--zovo-fs-caption);
+  color: var(--zovo-text-secondary);
+}
+
+.zovo-dx-options__grid {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: var(--zovo-space-2) var(--zovo-space-4);
+  align-items: center;
+}
+.zovo-dx-options__grid > label {
+  font-size: var(--zovo-fs-caption);
+  color: var(--zovo-text-secondary);
+}
+.zovo-dx-options__grid > input[type="range"] {
+  width: 100%;
+}
+
+.zovo-dx-options__profile-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--zovo-space-2);
+  margin: var(--zovo-space-3) 0;
+}
+.zovo-dx-options__profile-row {
+  display: flex;
+  align-items: center;
+  gap: var(--zovo-space-2);
+  padding: var(--zovo-space-2) var(--zovo-space-3);
+  border: 1px solid var(--zovo-border);
+  border-radius: var(--zovo-radius-btn);
+  background: var(--zovo-surface);
+}
+.zovo-dx-options__profile-host {
+  flex: 1;
+  font-family: var(--zovo-font-mono);
+  font-size: var(--zovo-fs-caption);
+}
+
+.zovo-dx-options__add-profile {
+  display: flex;
+  align-items: end;
+  gap: var(--zovo-space-2);
+}
+.zovo-dx-options__add-profile .zovo-input { flex: 1; }
+
+.zovo-dx-options__io {
+  display: flex;
+  gap: var(--zovo-space-3);
+}
+.zovo-dx-options__io-note {
+  margin: var(--zovo-space-2) 0 0;
+  font-size: var(--zovo-fs-caption);
+  color: var(--zovo-text-secondary);
+}

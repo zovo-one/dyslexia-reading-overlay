@@ -1,0 +1,73 @@
+{
+  "extName": {
+    "message": "阅读障碍阅读叠层 — 友好字体、色彩滤镜与阅读标尺",
+    "description": "Extension name — ≤75 chars"
+  },
+  "extDesc": {
+    "message": "适合读写困难的字体、爱伦色调、字母/词/行间距与跟踪阅读尺。免费、无广告、本地运行。",
+    "description": "Extension description — ≤132 chars"
+  },
+  "masterSwitch": {
+    "message": "开关阅读覆盖层"
+  },
+  "fontPicker": {
+    "message": "阅读字体"
+  },
+  "fontDefault": {
+    "message": "默认"
+  },
+  "fontOpenDyslexic": {
+    "message": "OpenDyslexic"
+  },
+  "fontLexend": {
+    "message": "Lexend"
+  },
+  "tintColor": {
+    "message": "色调颜色"
+  },
+  "tintOpacity": {
+    "message": "色调不透明度"
+  },
+  "letterSpacing": {
+    "message": "字母间距"
+  },
+  "wordSpacing": {
+    "message": "词间距"
+  },
+  "lineHeight": {
+    "message": "行高"
+  },
+  "maxWidth": {
+    "message": "行长"
+  },
+  "rulerToggle": {
+    "message": "阅读尺"
+  },
+  "rulerHeight": {
+    "message": "阅读尺高度"
+  },
+  "customTint": {
+    "message": "自定义色调"
+  },
+  "autoApply": {
+    "message": "在每个页面自动应用"
+  },
+  "perSiteProfile": {
+    "message": "按站点配置"
+  },
+  "ttsRead": {
+    "message": "朗读"
+  },
+  "pdfMode": {
+    "message": "PDF阅读模式"
+  },
+  "upgradePro": {
+    "message": "升级到专业版"
+  },
+  "livePreview": {
+    "message": "你的阅读设置"
+  },
+  "previewSample": {
+    "message": "敏捷的棕色狐狸跳过懒狗。读写困难让阅读变得困难；这个覆盖层让它变得更容易。"
+  }
+}
